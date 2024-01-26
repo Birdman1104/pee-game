@@ -1,7 +1,6 @@
 import { ObservableModel } from "./ObservableModel";
 
 export class GameModel extends ObservableModel {
-    protected emitEventsFor = ["score"];
     private _score: number = null;
 
     public constructor() {
