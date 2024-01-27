@@ -1,5 +1,5 @@
 export const enum SceneNames {
-    Boot = "BootScene",
+    Intro = "IntroScene",
     Preload = "PreloadScene",
     Main = "MainScene",
 }

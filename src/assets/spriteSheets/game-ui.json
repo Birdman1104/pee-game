@@ -1,0 +1,40 @@
+{
+	"textures": [
+		{
+			"image": "game-ui.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 134,
+				"h": 70
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "playButton.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 64
+					},
+					"frame": {
+						"x": 3,
+						"y": 3,
+						"w": 128,
+						"h": 64
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://github.com/odrick/free-tex-packer-core",
+		"version": "0.3.4"
+	}
+}

@@ -26,7 +26,7 @@ export default class PreloadScene extends Phaser.Scene {
     private create(): void {
         console.log("Asset loading is completed");
         lego.command.execute(mapCommands);
-        this.scene.start(SceneNames.Main);
+        this.scene.start(SceneNames.Intro);
         lego.command.execute(initModelsCommand);
     }
 
