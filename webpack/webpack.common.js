@@ -17,7 +17,7 @@ module.exports = {
         rules: [
             {
                 test: /\.tsx?$|\.jsx?$/,
-                include: path.join(__dirname, "../src"),
+                include: path.join(__dirname, "..", "src"),
                 loader: "ts-loader",
             },
             {
