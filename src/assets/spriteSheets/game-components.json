@@ -1,0 +1,103 @@
+{
+	"textures": [
+		{
+			"image": "game-components.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 451,
+				"h": 422
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "toilet.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 220,
+						"h": 416
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 219,
+						"h": 416
+					},
+					"frame": {
+						"x": 3,
+						"y": 3,
+						"w": 219,
+						"h": 416
+					}
+				},
+				{
+					"filename": "close_toilet.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 220,
+						"h": 225
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 220,
+						"h": 225
+					},
+					"frame": {
+						"x": 228,
+						"y": 3,
+						"w": 220,
+						"h": 225
+					}
+				},
+				{
+					"filename": "pee.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 85,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 84,
+						"h": 65
+					},
+					"frame": {
+						"x": 228,
+						"y": 234,
+						"w": 84,
+						"h": 65
+					}
+				},
+				{
+					"filename": "drop.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 228,
+						"y": 305,
+						"w": 32,
+						"h": 32
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://github.com/odrick/free-tex-packer-core",
+		"version": "0.3.4"
+	}
+}
